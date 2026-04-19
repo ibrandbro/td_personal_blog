@@ -4,180 +4,106 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Financial Systems Insights</title>
-  <meta name="description" content="Implementation-focused research on financial crime, risk, payments, architecture, and AI in regulated industries." />
   <link rel="stylesheet" href="assets/styles.css" />
 </head>
 <body>
-  <header class="site-header">
-    <div class="wrap nav">
-      <a class="brand" href="index.html">
-        <span class="brand-mark"></span>
-        <span>Financial Systems Insights</span>
-      </a>
-      <nav>
-        <a href="index.html">Home</a>
-        <a href="posts.html">Posts</a>
-        <a href="about.html">About</a>
-      </nav>
-    </div>
-  </header>
+  <div class="page">
+    <div class="layout">
+      <aside class="left-rail">
+        <h1 class="brand">Financial Systems Insights.</h1>
 
-  <main>
-    <section class="hero wrap">
-      <div class="hero-grid">
-        <div class="hero-main card fade-up">
-          <span class="eyebrow">Implementation-first research</span>
-          <h1>Financial crime, risk, and payments — from regulation to execution.</h1>
-          <p class="lead">
-            Practical insights on how organizations design systems, data flows, controls, ownership models,
-            and architecture across regulated environments.
-          </p>
-          <div class="actions">
-            <a class="btn primary" href="posts.html">Explore Posts</a>
-            <a class="btn" href="https://ibrandbro.github.io/financial-crime-framework-demo/" target="_blank">Open Live Demo</a>
-          </div>
+        <div class="author-photo">
+          <img src="assets/author-placeholder.png" alt="Author photo" />
         </div>
 
-        <aside class="hero-side fade-up delay-1">
-          <div class="card" style="padding:18px">
-            <div class="author">
-              <div class="author-photo">
-                <img src="assets/author-placeholder.png" alt="Author photo placeholder" />
-              </div>
-              <div class="author-copy">
-                <h2>About the author</h2>
-                <p>
-                  I research how financial organizations can implement frameworks across financial crime, risk,
-                  payments, compliance architecture, and AI. This site is where I publish implementation
-                  blueprints, operating model ideas, and practical system-design perspectives.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="metric-grid">
-            <div class="metric card">
-              <span>Focus areas</span>
-              <strong>AML, risk, payments, AI</strong>
-            </div>
-            <div class="metric card">
-              <span>Publishing style</span>
-              <strong>Research + implementation</strong>
-            </div>
-            <div class="metric card">
-              <span>Current flagship</span>
-              <strong>Financial crime framework</strong>
-            </div>
-          </div>
-        </aside>
-      </div>
-    </section>
+        <p class="about">
+          I research how financial organizations implement frameworks across financial crime, risk, payments,
+          compliance architecture, and AI. This site is where I share implementation thinking, research notes,
+          and posts focused on turning regulation into real-world execution.
+        </p>
 
-    <section class="wrap section fade-up delay-1">
-      <div class="section-head">
-        <div>
-          <h2>Featured work</h2>
-          <p>Your strongest proof point should live on the homepage.</p>
+        <div class="socials">
+          <a href="#" class="social s-fb">f</a>
+          <a href="#" class="social s-pi">p</a>
+          <a href="#" class="social s-x">x</a>
+          <a href="#" class="social s-in">in</a>
         </div>
-      </div>
-      <div class="grid two">
-        <article class="feature-card card">
-          <span class="kicker">Interactive demo</span>
-          <h3>Financial Crime Framework (US Market)</h3>
+
+        <div class="rail-title">Latest on the blog</div>
+        <ul class="latest-list">
+          <li><a href="posts/financial-crime-framework-implementation.html">Financial Crime Framework Implementation: From Regulation to Execution</a></li>
+          <li><a href="posts/aml-architecture-realtime-vs-batch.html">AML Architecture: Real-Time vs Batch</a></li>
+          <li><a href="posts/ownership-model-financial-crime.html">Who Owns What in Financial Crime Programs?</a></li>
+          <li><a href="posts/ai-in-regulated-workflows.html">Where AI Fits in Regulated Workflows</a></li>
+        </ul>
+      </aside>
+
+      <main class="right-content">
+        <nav class="top-nav">
+          <a href="index.html">Home</a>
+          <a href="posts.html">Posts</a>
+          <a href="about.html">About</a>
+        </nav>
+
+        <article class="post">
+          <div class="kicker">Featured work</div>
+          <h2><a href="https://ibrandbro.github.io/financial-crime-framework-demo/" target="_blank">Interactive Financial Crime Framework (US Market)</a></h2>
           <p>
             An implementation blueprint covering KYC/CIP, CDD, sanctions, PEP, transaction monitoring,
-            case management, SAR escalation, ownership, and supporting architecture.
+            organization ownership, and supporting architecture for financial crime programs.
           </p>
-          <div class="tags">
-            <span class="tag">Workflow Design</span>
-            <span class="tag">Ownership Model</span>
-            <span class="tag">AI + Architecture</span>
-          </div>
-          <div class="actions" style="margin-top:18px">
-            <a class="btn primary" href="https://ibrandbro.github.io/financial-crime-framework-demo/" target="_blank">Open Live Demo</a>
-          </div>
+          <a class="read-more" href="https://ibrandbro.github.io/financial-crime-framework-demo/" target="_blank">&gt;&gt; Open live demo.</a>
         </article>
 
-        <aside class="panel-card card">
-          <span class="kicker">Why this site exists</span>
-          <h3>Implementation, not theory.</h3>
+        <div class="separator"></div>
+
+        <article class="post">
+          <div class="kicker">Implementation Blueprint</div>
+          <h2><a href="posts/financial-crime-framework-implementation.html">Financial Crime Framework Implementation: From Regulation to Execution</a></h2>
           <p>
-            Most content explains regulations. Much less explains how organizations should build the
-            systems, ownership models, validation controls, and data architecture that actually make those
-            frameworks work.
+            A practical view of how organizations can design customer intake, KYC/CIP, CDD, beneficial ownership,
+            sanctions, PEP, monitoring, case management, and SAR escalation as an implementation framework.
           </p>
-          <div class="callout">
-            This site focuses on translating industry and regulatory ideas into practical execution across
-            technology, data, risk, fraud operations, and compliance.
-          </div>
-        </aside>
-      </div>
-    </section>
-
-    <section class="wrap section fade-up delay-2">
-      <div class="section-head">
-        <div>
-          <h2>Latest posts</h2>
-          <p>A growing library of implementation blueprints and research notes.</p>
-        </div>
-        <a href="posts.html" style="color:var(--primary);font-weight:800">See all posts</a>
-      </div>
-      <div class="grid three">
-        <article class="post-card card">
-          <div class="meta">Featured</div>
-          <h3><a href="posts/financial-crime-framework-implementation.html">Financial Crime Framework Implementation</a></h3>
-          <p>How to move from regulatory interpretation to real system design, ownership, and execution.</p>
+          <a class="read-more" href="posts/financial-crime-framework-implementation.html">&gt;&gt; Read more.</a>
         </article>
-        <article class="post-card card">
-          <div class="meta">Next Post</div>
-          <h3><a href="posts/aml-architecture-realtime-vs-batch.html">AML Architecture: Real-Time vs Batch</a></h3>
-          <p>Where APIs, event streams, and batch platforms fit into transaction monitoring and case workflows.</p>
-        </article>
-        <article class="post-card card">
-          <div class="meta">Next Post</div>
-          <h3><a href="posts/ai-in-regulated-workflows.html">AI in Regulated Workflows</a></h3>
-          <p>Where AI actually adds value in compliance operations, and where human judgment still matters most.</p>
-        </article>
-      </div>
-    </section>
 
-    <section class="wrap section fade-up delay-3">
-      <div class="section-head">
-        <div>
-          <h2>Research roadmap</h2>
-          <p>Your next 3 posts, strategically sequenced.</p>
-        </div>
-      </div>
-      <div class="roadmap card roadmap-card">
-        <div class="roadmap-item">
-          <div class="roadmap-num">1</div>
-          <div>
-            <strong>AML Architecture: Real-Time vs Batch</strong>
-            <p>Explain how onboarding, sanctions, monitoring, alerts, and case workflows should be split across APIs, Kafka, data lakes, and batch platforms. This positions you as both a systems thinker and an implementation architect.</p>
-          </div>
-        </div>
-        <div class="roadmap-item">
-          <div class="roadmap-num">2</div>
-          <div>
-            <strong>Who Owns What in Financial Crime Programs?</strong>
-            <p>Write about the operating model: Compliance, Fraud Ops, Risk, Data Engineering, and Technology. This builds naturally on your framework demo and makes the ownership theme a recognizable signature of your work.</p>
-          </div>
-        </div>
-        <div class="roadmap-item">
-          <div class="roadmap-num">3</div>
-          <div>
-            <strong>Where AI Fits in Regulated Workflows</strong>
-            <p>Cover AI-assisted data extraction, validation, anomaly detection, narrative drafting, and human-in-the-loop review. This expands your brand into AI without sounding generic.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-  </main>
+        <div class="separator"></div>
 
-  <footer class="footer">
-    <div class="wrap footer-inner">
-      <p>© 2026 Financial Systems Insights</p>
-      <p>Built for implementation-focused research across regulated industries.</p>
+        <article class="post">
+          <div class="kicker">Architecture</div>
+          <h2><a href="posts/aml-architecture-realtime-vs-batch.html">AML Architecture: Real-Time vs Batch</a></h2>
+          <p>
+            Where APIs, Kafka, event streams, data lakes, and batch platforms fit into AML onboarding,
+            screening, monitoring, and investigation workflows.
+          </p>
+          <a class="read-more" href="posts/aml-architecture-realtime-vs-batch.html">&gt;&gt; Read more.</a>
+        </article>
+
+        <div class="separator"></div>
+
+        <article class="post">
+          <div class="kicker">Operating Model</div>
+          <h2><a href="posts/ownership-model-financial-crime.html">Who Owns What in Financial Crime Programs?</a></h2>
+          <p>
+            A practical ownership model across Compliance, Fraud Ops, Risk, Data Engineering, and Technology,
+            and why weak ownership often leads to weak control execution.
+          </p>
+          <a class="read-more" href="posts/ownership-model-financial-crime.html">&gt;&gt; Read more.</a>
+        </article>
+
+        <div class="separator"></div>
+
+        <article class="post">
+          <div class="kicker">AI in regulated systems</div>
+          <h2><a href="posts/ai-in-regulated-workflows.html">Where AI Fits in Regulated Workflows</a></h2>
+          <p>
+            Where AI can actually add value in regulated workflows — including document extraction, anomaly surfacing,
+            case summarization, and evidence preparation — without replacing critical human review.
+          </p>
+          <a class="read-more" href="posts/ai-in-regulated-workflows.html">&gt;&gt; Read more.</a>
+        </article>
+      </main>
     </div>
-  </footer>
+  </div>
 </body>
 </html>

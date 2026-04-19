@@ -1,15 +1,12 @@
-Premium blog site for GitHub Pages
+Editorial blog site for GitHub Pages
 
-What is included:
-- Premium homepage redesign
-- Author section with photo placeholder at assets/author-placeholder.png
-- Professional styling and subtle animations
-- Featured demo section
-- Posts page
-- About page
-- 4 article pages including your next 3 strategic posts
+What changed:
+- homepage redesigned in a lighter editorial style
+- left author rail + right stacked article feed
+- much less bulky than the previous version
+- author photo placeholder included at assets/author-placeholder.png
 
 How to personalize:
-1. Replace assets/author-placeholder.png with your own photo.
-2. Edit the author paragraph in index.html if needed.
-3. Upload all files to your GitHub Pages repo.
+1. Replace assets/author-placeholder.png with your own photo
+2. Update the author paragraph in index.html
+3. Upload all files to your GitHub repo
