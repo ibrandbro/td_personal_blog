@@ -1,1 +1,1 @@
-Updated branding copy and broader positioning for your site.
+Commit-ready blog package with expanded posts and lightweight architecture diagrams.
