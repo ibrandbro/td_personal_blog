@@ -1,35 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Posts | Financial Systems Insights</title>
+  <title>Posts | Systems &amp; Insights</title>
   <link rel="stylesheet" href="assets/styles.css" />
+  <script src="assets/main.js"></script>
 </head>
 <body>
 <div class="page">
   <div class="layout">
 
     <aside class="left-rail">
-      <div>
-        <a href="index.html" class="brand">Financial<br><span>Systems Insights</span></a>
-        <div class="brand-rule"></div>
-      </div>
-
       <div class="author-photo">
         <img src="assets/author-placeholder.png" alt="Author photo" />
       </div>
-
-      <p class="about">
-        Research, implementation thinking, and practical insights across systems,
-        architecture, operating models, and execution.
-      </p>
-
+      <p class="about">Research, implementation thinking, and practical insights across systems, architecture, and operating models.</p>
       <div class="socials">
         <a href="#" class="social">f</a>
         <a href="#" class="social">p</a>
         <a href="#" class="social">x</a>
         <a href="#" class="social">in</a>
+      </div>
+      <div style="margin-top:auto">
+        <div class="theme-toggle" id="theme-toggle">
+          <span class="theme-toggle-icon">☀</span>
+          <div class="toggle-track"><div class="toggle-knob"></div></div>
+          <span class="theme-toggle-label">Theme</span>
+        </div>
       </div>
     </aside>
 
@@ -43,52 +41,30 @@
 
       <div class="page-hero">
         <h1>All Posts</h1>
-        <p>Research, blueprints, and implementation thinking across financial systems.</p>
+        <p>Research, blueprints, and implementation thinking.</p>
       </div>
 
       <div class="posts-grid">
-
-        <a href="posts/financial-crime-framework-implementation.html" class="post-card" style="text-decoration:none">
+        <a href="posts/financial-crime-complete-guide.html" class="post-card" style="text-decoration:none">
           <div>
-            <div class="kicker">Featured · Implementation Blueprint</div>
-            <div class="post-card-title">Financial Crime Framework Implementation: From Regulation to Execution</div>
-            <div class="post-card-excerpt">A practical implementation guide for organizations designing financial crime control frameworks across KYC, CDD, sanctions, and case management.</div>
+            <div class="kicker">Financial Crime · Long Read</div>
+            <div class="post-card-title">Financial Crime: A Complete Implementation Guide</div>
+            <div class="post-card-excerpt">Framework design, AML architecture, ownership models, and AI in regulated workflows — one authoritative long-form reference covering the full financial crime landscape.</div>
             <span class="read-more">Read article</span>
           </div>
-          <div class="post-card-meta">AML · Compliance</div>
+          <div class="post-card-meta">AML · Compliance · Architecture</div>
         </a>
-
-        <a href="posts/aml-architecture-realtime-vs-batch.html" class="post-card" style="text-decoration:none">
-          <div>
-            <div class="kicker">Architecture</div>
-            <div class="post-card-title">AML Architecture: Real-Time vs Batch</div>
-            <div class="post-card-excerpt">How APIs, event streams, and batch pipelines work together inside an AML ecosystem — and when to use each.</div>
-            <span class="read-more">Read article</span>
-          </div>
-          <div class="post-card-meta">Architecture · Data</div>
-        </a>
-
-        <a href="posts/ownership-model-financial-crime.html" class="post-card" style="text-decoration:none">
-          <div>
-            <div class="kicker">Operating Model</div>
-            <div class="post-card-title">Who Owns What in Financial Crime Programs?</div>
-            <div class="post-card-excerpt">A practical view of responsibility across Compliance, Fraud Ops, Risk, Data Engineering, and Technology.</div>
-            <span class="read-more">Read article</span>
-          </div>
-          <div class="post-card-meta">Operations · Risk</div>
-        </a>
-
-        <a href="posts/ai-in-regulated-workflows.html" class="post-card" style="text-decoration:none">
-          <div>
-            <div class="kicker">AI in Regulated Workflows</div>
-            <div class="post-card-title">Where AI Fits in Regulated Workflows</div>
-            <div class="post-card-excerpt">From onboarding to case management, where AI can support execution — and where human review remains essential.</div>
-            <span class="read-more">Read article</span>
-          </div>
-          <div class="post-card-meta">AI · Compliance</div>
-        </a>
-
       </div>
+
+      <footer class="site-footer">
+        <div class="footer-brand">Systems <span>&amp; Insights</span></div>
+        <div class="footer-links">
+          <a href="index.html">Home</a>
+          <a href="posts.html">Posts</a>
+          <a href="about.html">About</a>
+        </div>
+        <div class="footer-copy">© 2025</div>
+      </footer>
     </main>
 
   </div>
