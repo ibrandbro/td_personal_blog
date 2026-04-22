@@ -268,7 +268,7 @@ a { text-decoration:none; color:inherit; }
 .article-kicker::before { content:''; width:20px; height:1px; background:var(--accent); display:block; }
 
 .article-title {
-  font-family:var(--head); font-size:42px; font-weight:800;
+  font-family:var(--head); font-size:32px; font-weight:800;
   line-height:1.1; letter-spacing:-.025em;
   color:var(--text); margin-bottom:16px;
   padding-bottom:16px;
@@ -384,6 +384,6 @@ a { text-decoration:none; color:inherit; }
   .rail  { position:static; height:auto; }
   .topbar, .content-pane, .site-footer { padding-left:20px; padding-right:20px; }
   .two-col { grid-template-columns:1fr; }
-  .article-title { font-size:30px; }
+  .article-title { font-size:24px; }
   .static-title  { font-size:32px; }
 }
