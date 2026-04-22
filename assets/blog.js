@@ -80,7 +80,17 @@ var ARTICLE = {
 
     '<p>The organisations that execute most effectively are those that close the loop between policy intent and system-level execution — defining not just what the controls are, but how data flows through them, who owns each step, and how technology is governed at every layer.</p>',
 
-    '<div class="note"><strong>Live demo</strong><p>See these concepts in action at the <a href="https://ibrandbro.github.io/financial-crime-framework-demo/" target="_blank" style="color:var(--acc-l)">Interactive Financial Crime Framework demo</a> — a practical implementation blueprint for the US market.</p></div>'
+    '<div class="note"><strong>Live demo</strong><p>See these concepts in action at the <a href="https://ibrandbro.github.io/financial-crime-framework-demo/" target="_blank" style="color:var(--acc-l)">Interactive Financial Crime Framework demo</a> — a practical implementation blueprint for the US market.</p></div>',
+
+    /* ── REFERENCES ── */
+    '<div class="references">' +
+      '<div class="references-title">References</div>' +
+      '<ol class="references-list">' +
+        '<li><span class="ref-num">1</span><div class="ref-content"><a href="https://financialcrimeacademy.org/know-your-customer-kyc-and-customer-due-diligence-cdd/" target="_blank" rel="noopener" class="ref-link">Know Your Customer (KYC) And Customer Due Diligence (CDD)</a><span class="ref-source">Financial Crime Academy</span></div></li>' +
+        '<li><span class="ref-num">2</span><div class="ref-content"><a href="https://www.pwc.com/ca/en/services/consulting/financial-crime/generative-ai-to-fight-financial-crime.html" target="_blank" rel="noopener" class="ref-link">Use GenAI to Fight Financial Crime with Confidence</a><span class="ref-source">PwC Canada — Financial Crime Consulting</span></div></li>' +
+        '<li><span class="ref-num">3</span><div class="ref-content"><a href="https://www.justice.gov/archives/jm/criminal-resource-manual-2040-bank-records-and-foreign-transactions-financial-crimes" target="_blank" rel="noopener" class="ref-link">Bank Records and Foreign Transactions — Financial Crimes Enforcement Network (FinCEN)</a><span class="ref-source">U.S. Department of Justice — Criminal Resource Manual §2040</span></div></li>' +
+      '</ol>' +
+    '</div>'
 
   ].join('\n')
 };
