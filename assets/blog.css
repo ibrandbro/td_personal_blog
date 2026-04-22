@@ -278,6 +278,8 @@ a { text-decoration:none; color:inherit; }
 .article-body p {
   font-size:17px; line-height:1.87;
   color:var(--text-2); margin-bottom:22px;
+  text-align:justify;
+  hyphens:auto;
 }
 .article-body h2 {
   font-family:var(--head); font-size:27px; font-weight:700;
