@@ -1,7 +1,7 @@
 /* ── Single combined article ─────────────────────────────── */
 var ARTICLE = {
   kicker: 'Financial Crime',
-  title:  'A Complete Guide to Financial Crime Implementation',
+  title:  'A Complete Guide to Financial Crime Prevention & Implementation',
   byline: 'Systems & Insights &nbsp;·&nbsp; AML &nbsp;·&nbsp; Compliance &nbsp;·&nbsp; Architecture &nbsp;·&nbsp; AI<a href="https://ibrandbro.github.io/financial-crime-framework-demo/" target="_blank" rel="noopener" class="byline-demo">Live Demo &#8599;</a>',
   body: [
 
@@ -109,7 +109,7 @@ var VIEWS = {
     return '<div class="fade-in">' +
       '<div class="home-card" id="single-card">' +
         '<div class="home-card-kicker">Financial Crime</div>' +
-        '<div class="home-card-title">A Complete Guide to Financial Crime Implementation</div>' +
+        '<div class="home-card-title">A Complete Guide to Financial Crime Prevention & Implementation</div>' +
         '<div class="home-card-excerpt">Framework design, AML architecture, ownership models, and the role of AI in regulated workflows — combined into one authoritative reference for practitioners and system designers.</div>' +
         '<span class="read-more">Read article</span>' +
       '</div>' +
