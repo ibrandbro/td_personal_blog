@@ -70,7 +70,7 @@ var ARTICLE = {
 
     '<div class="diagram"><div class="diagram-title">AI integration architecture</div><div class="flow"><span class="node">Input Data</span><span class="arr">&#8594;</span><span class="node">AI Model</span><span class="arr">&#8594;</span><span class="node">Risk Insights</span><span class="arr">&#8594;</span><span class="node">Human Review</span><span class="arr">&#8594;</span><span class="node">Final Decision</span></div></div>',
 
-    '<div class="two-col"><div class="callout"><div class="callout-head">End goal</div><p>Improve efficiency and accuracy without compromising control. AI should enhance human decision-making — surfacing insights while leaving judgment to qualified reviewers.</p></div><div class="callout"><div class="callout-head">Key principle</div><p>AI's success in regulated workflows depends on careful integration, explainability, and governance at every step — not the sophistication of the model alone.</p></div></div>',
+    '<div class="two-col"><div class="callout"><div class="callout-head">End goal</div><p>Improve efficiency and accuracy without compromising control. AI should enhance human decision-making — surfacing insights while leaving judgment to qualified reviewers.</p></div><div class="callout"><div class="callout-head">Key principle</div><p>AI&#39;s success in regulated workflows depends on careful integration, explainability, and governance at every step — not the sophistication of the model alone.</p></div></div>',
 
     '<div class="note"><strong>Implementation note</strong><p>In regulated workflows, AI works best as an accelerator, reviewer aid, and evidence-preparation layer — not as a fully autonomous final decision-maker. Design for human-in-the-loop from day one.</p></div>',
 
